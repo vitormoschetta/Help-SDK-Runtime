@@ -15,8 +15,8 @@ Disponibiliza um CLI para criar, compilar, executar e publicar aplicações.
 <br>
 
 ## Runtime 
-É o Tempo de Execução, como uma 'Máquina Virtual' que executa as .dll publicadas pelo SDK.  
+É o Tempo de Execução, como uma 'Máquina Virtual' que executa os arquivos _.dll_ publicados pelo SDK.  
 
-###### Importante: O SDK já possui seu próprio Runtime para ser utilizado com CLI durante o desenvolvimento.
+###### Importante: O SDK já possui seu próprio _Runtime_ para ser utilizado com CLI durante o desenvolvimento.
 
 Ao **hospedar/implantar** o app, se faz necessário instalar um Runtime específico. Quando instalamos o 
