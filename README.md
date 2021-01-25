@@ -30,3 +30,28 @@ Para implantar uma aplicação usando o IIS por exemplo, instalamos uma outra fe
 
 
 Esta ferramenta possui o _Runtime_ apropriado para executar a aplicação através do IIS.
+
+<br>
+<br>
+
+## Aplicação Auto-contida
+Existe a opção de publicar uma aplicação .NET Core para um SO específico que já inclui o _Runtime_. Ou seja, não é necessário instalar o _Runtime_ separado no _Server_.
+
+Abaixo listamos alguns comandos:  
+
+###### Publicação padrão (depende de instalação separada do _Runtime_ no Server):
+```
+dotnet publish
+```
+
+
+###### Publicação Auto-contida:
+```
+dotnet publish --runtime win10-x64 --self-contained true
+```
+
+No comando acima especificamos que nossa aplicação deverá rodar em um Servidor Windows 10 com processador X64, e que deve incluir o _Runtime_.
+
+No link abaixo podemos obter a lista de comandos para os Sistemas Operacionais disponíveis:
+
+<https://docs.microsoft.com/pt-br/dotnet/core/rid-catalog>
