@@ -11,6 +11,8 @@ Disponibiliza um CLI para criar, compilar, executar e publicar aplicações.
 
 <https://dotnet.microsoft.com/download>
 
+<br>
+<br>
 
 ## Runtime 
 É o Tempo de Execução, como uma 'Máquina Virtual' que executa as .dll publicadas pelo SDK.  
