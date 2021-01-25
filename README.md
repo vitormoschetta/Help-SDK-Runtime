@@ -19,4 +19,11 @@ Disponibiliza um CLI para criar, compilar, executar e publicar aplicações.
 
 ###### Importante: O SDK já possui seu próprio _Runtime_ para ser utilizado com CLI durante o desenvolvimento.
 
-Ao **hospedar/implantar** o app, se faz necessário instalar um Runtime específico. Quando instalamos o 
+Ao **hospedar/implantar** o app, tudo o que precisamos para executar a aplicação é o _Runtime_. 
+
+Para implantar uma aplicação usando o IIS por exemplo, instalamos uma outra ferramenta chamada _Hosting Bundle_ (Pacote de Hospedagem):
+
+![alt text](images/01.png?raw=true=250x250 "Title")  
+
+
+Esta ferramenta possui o _Runtime_ apropriado para executar a aplicação através do IIS.
