@@ -52,6 +52,6 @@ dotnet publish --runtime win10-x64 --self-contained true
 
 No comando acima especificamos que nossa aplicação deverá rodar em um Servidor Windows 10 com processador X64, e que deve incluir o _Runtime_.
 
-No link abaixo podemos obter a lista de comandos para os Sistemas Operacionais disponíveis:
+No link abaixo podemos obter a lista de comandos para outras arquiteturas e SOs (Windows, Mac e Linux):
 
 <https://docs.microsoft.com/pt-br/dotnet/core/rid-catalog>
