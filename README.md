@@ -26,5 +26,7 @@ Para implantar uma aplicação usando o IIS por exemplo, instalamos uma outra fe
 
 ![alt text](images/01.png?raw=true=250x250 "Title")  
 
+![alt text](images/02.png?raw=true=250x250 "Title") 
+
 
 Esta ferramenta possui o _Runtime_ apropriado para executar a aplicação através do IIS.
